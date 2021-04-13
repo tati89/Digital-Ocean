@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  height: 100vh;
+  width: auto;
+}
+/* NAVIGATION */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.logo {
+  height: 25px;
+}
+.mid-nav,
+.right-nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.mid-nav li,
+.right-nav li {
+  margin: 10px;
+  font-size: 13px;
+  color: #3d4c6d;
+}
+
+.sign-up .link {
+  text-decoration: none;
+  border: 1px solid #4085ff;
+  padding: 7px;
+  border-radius: 5px;
+  color: #4085ff;
+}
+/* HERO */
+.hero {
+  display: flex;
+  height: 450px;
+  background-color: #004afe;
+}
+
+.introduction {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.introduction h1 {
+  padding-top: 50px;
+  padding-bottom: 15px;
+  color: #fefffe;
+  font-size: 3rem;
+  letter-spacing: 1.1px;
+  line-height: 60px;
+}
+
+.introduction p {
+  color: #b9caff;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+
+.form-class {
+  margin-right: 150px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.hero-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 45px;
+  padding-right: 20px;
+  margin-bottom: 60px;
+  margin-right: 50px;
+  margin-left: 40px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fefffe;
+}
+
+.hero-form .deploy-app {
+  font-size: 23px;
+  text-align: center;
+  font-weight: 550;
+  color: #021b4e;
+  padding-top: 25px;
+}
+
+.hero-form .get-started {
+  font-size: 25px;
+  text-align: center;
+  color: #0369ff;
+  font-weight: 450;
+}
+.email,
+.password {
+  width: 100%;
+  height: 35px;
+  border: 0.1px solid lightgray;
+  border-radius: 6px;
+}
+
+.create-account {
+  height: 25px;
+  border-radius: 5px;
+  border: 0;
+  color: #fefffe;
+  background-color: #5799ff;
+}
+
+.google-icon {
+  height: 15px;
+  width: 15px;
+}
+
+.sign-with-google {
+  height: 25px;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.footer-form {
+  font-size: 10px;
+  text-align: center;
+}
+
+.terms-link {
+  color: #0369ff;
+}
+
+/* CUSTOMERS section */
+.customers {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeff7;
+}
+
+.customers h2 {
+  text-align: center;
+  color: #727e9a;
+  text-transform: uppercase;
+  margin-top: 25px;
+  font-size: 0.8rem;
+  font-weight: 550;
+}
+
+.customers-logo img {
+  height: 140px;
+  width: 150px;
+  object-fit: contain;
+}
+
+.customers-logo {
+  display: flex;
+  justify-content: center;
+}
