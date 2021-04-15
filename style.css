@@ -16,10 +16,6 @@ html {
   margin-right: auto;
 }
 
-.nav-bar {
-  display: block;
-  position: fixed;
-}
 /* NAVIGATION */
 .navigation {
   display: flex;
