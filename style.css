@@ -85,9 +85,6 @@ html {
 }
 
 .form-class {
-  /* margin-right: 130px;
-  padding-left: 20px;
-  display: flex; */
   display: grid;
   padding: 15px;
 }
@@ -95,16 +92,6 @@ html {
 .hero-form {
   display: grid;
   padding: 15px;
-
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
-  /* margin-top: 45px;
-  padding-right: 20px;
-  margin-bottom: 60px;
-  margin-right: 50px;
-  margin-left: 50px;
-  padding: 15px; */
   border-radius: 5px;
   background-color: #fefffe;
 }
@@ -198,7 +185,7 @@ html {
   text-align: center;
   font-size: 0.7rem;
 }
-/* deploy-scale */
+/* deploy-scale section */
 .deploy-scale {
   padding: 60px;
 }
@@ -299,7 +286,7 @@ html {
   color: #737f99;
 }
 
-/* DESIGNED */
+/* DESIGNED section */
 .designed {
   display: flex;
   padding: 60px;
